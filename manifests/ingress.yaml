@@ -4,7 +4,7 @@ metadata:
   name: todoapp-ingress
 spec:
   rules:
-  - host: todoapp.local
+  - host: enset.com
     http:
       paths:
       - path: /
