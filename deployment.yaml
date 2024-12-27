@@ -14,7 +14,7 @@ spec:
         app: todoapp
     spec:
       containers:
-        - name: todoapp
-          image: 4bdex/todoapp
-          ports:
-            - containerPort: 3000
+      - name: todoapp
+        image: 4bdex/todoapp:latest
+        ports:
+        - containerPort: 3000
