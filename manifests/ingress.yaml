@@ -4,7 +4,7 @@ metadata:
   name: todoapp-ingress
 spec:
   rules:
-  - host: localhost
+  - host: todoapp.local
     http:
       paths:
       - path: /
@@ -12,5 +12,5 @@ spec:
         backend:
           service:
             name: todoapp-service
-            port: 3000
+            port:
               number: 80
