@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: todoapp
-        image: 4bdex/todoapp:latest
+        image: 4bdex/todoapp:faulty
         ports:
         - containerPort: 3000
